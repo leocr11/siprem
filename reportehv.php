@@ -315,7 +315,7 @@ function Footer()
 	$pdf->Ln(10);
 	$archivo='hv.pdf';
 	$pdf->Output($archivo,"F");
-	$correo="jcastillo@uniempresarial.edu.co";
-	$nombre="jac";
+	$correo="------";
+	$nombre="--";
 	header("Location: email.php?email=$correo&nombre=$nombre");
 ?>
